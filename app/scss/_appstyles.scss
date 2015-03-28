@@ -2,6 +2,10 @@
 
 @import "compass/css3";
 @import "compass/utilities";
+@font-face  {
+  font-family: "League Gothic";
+  src: url(../fonts/leaguegothic-regular-webfont.woff);
+}
 
 $font-stack: "Open Sans", sans-serif;
 $lato-stack: "Lato", sans-serif;
@@ -19,16 +23,32 @@ body {
   vertical-align: middle;
 }
 
+#me {
+  font-family: "League Gothic", sans-serif;
+  font-size: rem-calc(36);
+}
+
 #hero {
   display: table;
   position: relative;
-  background: url(../images/cover.jpeg) no-repeat center center fixed;
+  background: url(../images/cover.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   width: 100%;
   margin-top: 0;
 
-  h1 {
+  #heading h1 {
     color: #ffffff;
+    font-size: rem-calc(24);
   }
+
+  .learn-button {
+    @include button($bg-hover: white, $border-color: white);
+    color: $white;
+    margin-top: rem-calc(55);
+  }
+}
+
+#about {
+  margin-top: rem-calc(55);
 }
