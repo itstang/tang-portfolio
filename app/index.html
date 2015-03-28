@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation project</title>
+    <title>Richard Tang</title>
     <!-- build:css css/libraries.min.css -->
     <!-- bower:css -->
     <!-- endbower -->
@@ -26,10 +26,10 @@
 
           <section class="top-bar-section">
             <ul class="right">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Timeline</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#timeline">Timeline</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </section>
         </nav>
@@ -47,26 +47,149 @@
     <section id="about">
       <div class="row text-center">
         <h2>ABOUT ME</h2>
-        <p>Here are some of the things that I enjoy doing in my free time</p>
+        <p class="sub-heading large-5 large-centered columns">Here are some of the things that I enjoy doing in my free time</p>
       </div>
 
       <div class="row">
-        <ul class="large-block-grid-3" id="interests">
+        <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3" id="interests">
           <li>
-            <img src="../images/dance-circle.png" alt="">
-            <h3 class="text-center">DANCING</h3>
+            <article class="interest dance">
+              <div class="circle"></div>
+              <h3 class="text-center">DANCING</h3>
+            </article>
           </li>
           <li>
-            <img src="../images/computer-circle.png" alt="">
-            <h3 class="text-center">PROGRAMMING</h3>
+            <article class="interest computer">
+              <div class="circle"></div>
+              <h3 class="text-center">PROGRAMMING</h3>
+            </article>
           </li>
           <li>
-            <img src="../images/food-circle.png" alt="">
-            <h3 class="text-center">EATING</h3>
+            <article class="interest food">
+              <div class="circle"></div>
+              <h3 class="text-center">EATING</h3>
+            </article>
           </li>
         </ul>
       </div>
+    </section>
 
+    <section id="skills">
+      <div class="row text-center">
+        <h2>WHAT I DO</h2>
+        <p class="sub-heading large-6 large-centered columns">Here are some of my skills that I have been honing on for excellent development</p>
+      </div>
+
+      <article class="row text-center">
+        <div class="large-4 columns">
+          <span class="icon-embed2"></span>
+          <h4>Frontend</h4>
+          <p class="text-left">In non mi felis. Suspendisse potenti. Donec at lacus sit amet sapien dictum commodo. In placerat lorem in diam placerat ultrices.</p>
+        </div>
+        <div class="large-4 columns">
+          <span class="icon-tablet"></span>
+          <h4>Responsive</h4>
+          <p class="text-left">In non mi felis. Suspendisse potenti. Donec at lacus sit amet sapien dictum commodo. In placerat lorem in diam placerat ultrices.</p>
+        </div>
+        <div class="large-4 columns">
+          <span class="icon-pencil"></span>
+          <h4>Design</h4>
+          <p class="text-left">In non mi felis. Suspendisse potenti. Donec at lacus sit amet sapien dictum commodo. In placerat lorem in diam placerat ultrices.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="portfolio">
+      <div class="row text-center">
+        <h2>PAST WORK PORTFOLIO</h2>
+        <p class="sub-heading large-5 large-centered columns">Here are some of the projects that I’ve had the priviledge to work on</p>
+      </div>
+
+      <div class="row">
+        <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3" id="projects">
+          <li>
+            <article class="project">
+              <img src="../images/dance.jpg" alt="" />
+              <h3>United Way Pre-K</h3>
+              <p>Frontend for iOS/Android</p>
+            </article>
+          </li>
+          <li>
+            <article class="project">
+              <img src="../images/dance.jpg" alt="" />
+              <h3>Spiceworks Helpdesk</h3>
+              <p>Design for iOS</p>
+            </article>
+          </li>
+          <li>
+            <article class="project">
+              <img src="../images/dance.jpg" alt="" />
+              <h3>Something</h3>
+              <p>Something something</p>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <div class="row text-center">
+        <h2>PERSONAL TIMELINE</h2>
+        <p class="sub-heading large-5 large-centered columns">Here is how I got to be where I am now</p>
+      </div>
+
+      <section id="cd-timeline" class="cd-container">
+    		<div class="cd-timeline-block">
+    			<div class="cd-timeline-img cd-picture">
+    				<img src="img/cd-icon-picture.svg" alt="Picture">
+    			</div> <!-- cd-timeline-img -->
+
+    			<div class="cd-timeline-content">
+    				<h2>Title of section 1</h2>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+    				<a href="#0" class="cd-read-more">Read more</a>
+    				<span class="cd-date">Jan 14</span>
+    			</div> <!-- cd-timeline-content -->
+    		</div> <!-- cd-timeline-block -->
+
+    		<div class="cd-timeline-block">
+    			<div class="cd-timeline-img cd-movie">
+    				<img src="img/cd-icon-movie.svg" alt="Movie">
+    			</div> <!-- cd-timeline-img -->
+
+    			<div class="cd-timeline-content">
+    				<h2>Title of section 2</h2>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+    				<a href="#0" class="cd-read-more">Read more</a>
+    				<span class="cd-date">Jan 18</span>
+    			</div> <!-- cd-timeline-content -->
+    		</div> <!-- cd-timeline-block -->
+
+    		<div class="cd-timeline-block">
+    			<div class="cd-timeline-img cd-picture">
+    				<img src="img/cd-icon-picture.svg" alt="Picture">
+    			</div> <!-- cd-timeline-img -->
+
+    			<div class="cd-timeline-content">
+    				<h2>Title of section 3</h2>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+    				<a href="#0" class="cd-read-more">Read more</a>
+    				<span class="cd-date">Jan 24</span>
+    			</div> <!-- cd-timeline-content -->
+    		</div> <!-- cd-timeline-block -->
+
+    		<div class="cd-timeline-block">
+    			<div class="cd-timeline-img cd-movie">
+    				<img src="img/cd-icon-movie.svg" alt="Movie">
+    			</div> <!-- cd-timeline-img -->
+
+    			<div class="cd-timeline-content">
+    				<h2>Final Section</h2>
+    				<p>This is the content of the last section</p>
+    				<span class="cd-date">Feb 26</span>
+    			</div> <!-- cd-timeline-content -->
+    		</div> <!-- cd-timeline-block -->
+    	</section> <!-- cd-timeline -->
     </section>
 
 
