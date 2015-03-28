@@ -2,3 +2,33 @@
 
 @import "compass/css3";
 @import "compass/utilities";
+
+$font-stack: "Open Sans", sans-serif;
+$lato-stack: "Lato", sans-serif;
+$nav-color: #363636;
+$light-font: #d7d7d7;
+
+body {
+  font-family: "Open Sans" !important;
+}
+
+/* Utility Classes */
+.vert-align {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#hero {
+  display: table;
+  position: relative;
+  background: url(../images/cover.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+
+  h1 {
+    color: #ffffff;
+  }
+}
