@@ -157,8 +157,8 @@ body {
 
 #timeline {
   background-color: #ebebeb;
-  padding: 2em 0;
-  margin: 2em 0;
+  padding: 2em 0 4em;
+  margin: 2em 0 0;
 
   .tl-container {
     width: 90%;
@@ -378,4 +378,10 @@ body {
     -moz-animation: cd-bounce-2 0.6s;
     animation: cd-bounce-2 0.6s;
   }
+}
+
+#contact {
+  background-color: $oil;
+  color: $white;
+  padding: rem-calc(55) 0;
 }
