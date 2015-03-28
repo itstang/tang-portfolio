@@ -53,6 +53,7 @@ body {
 .sub-heading {
   font-size: $h4-font-size !important;
   font-weight: 300;
+  margin-top: rem-calc(24);
 }
 
 #me {
@@ -132,7 +133,27 @@ body {
   }
 }
 
-#portfolio {}
+#portfolio {
+  padding: rem-calc(55) 0 0;
+
+  .items {
+    margin-top: rem-calc(25);
+
+    article {
+      p {
+        margin: 0;
+
+        &:nth-child(2) {
+          margin-top: 0.5rem;
+        }
+      }
+
+      h3 {
+        font-size: $h4-font-size;
+      }
+    }
+  }
+}
 
 #timeline {
   background-color: #ebebeb;
