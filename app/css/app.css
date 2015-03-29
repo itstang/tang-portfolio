@@ -8176,6 +8176,10 @@ body {
   margin-top: 1.5rem;
 }
 
+.dark h2 {
+  color: #FFFFFF;
+}
+
 #me {
   font-family: "League Gothic", sans-serif;
   font-size: 2.25rem;
@@ -8264,8 +8268,13 @@ body {
   padding-top: 3.4375rem;
   color: #FFFFFF;
 }
+#skills h4 {
+  color: #FFFFFF;
+  font-weight: bold;
+  margin: 1.25rem 0;
+}
 #skills p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 #skills article {
@@ -8350,7 +8359,9 @@ body {
   border-radius: 50%;
   box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
-#timeline .timeline-img img {
+#timeline .timeline-img span {
+  color: #FFFFFF;
+  font-size: 1.5rem;
   display: block;
   width: 24px;
   height: 24px;
@@ -8362,6 +8373,15 @@ body {
 }
 #timeline .tl-picture {
   background: #978654;
+}
+#timeline .icon-book:before {
+  content: '\e91f';
+}
+#timeline .icon-mobile:before {
+  content: '\e958';
+}
+#timeline .icon-database:before {
+  content: '\e964';
 }
 #timeline .timeline-content {
   position: relative;

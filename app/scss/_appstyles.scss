@@ -56,6 +56,12 @@ body {
   margin-top: rem-calc(24);
 }
 
+.dark {
+  h2 {
+    color: $white;
+  }
+}
+
 #me {
   font-family: "League Gothic", sans-serif;
   font-size: rem-calc(36);
@@ -111,8 +117,14 @@ body {
   padding-top: rem-calc(55);
   color: $white;
 
+  h4 {
+    color: $white;
+    font-weight: bold;
+    margin: rem-calc(20) 0;
+  }
+
   p {
-    font-size: $h5-font-size;
+    font-size: $h6-font-size;
     font-weight: 300;
   }
 
@@ -216,7 +228,9 @@ body {
     border-radius: 50%;
     box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 
-    img {
+    span {
+      color: $white;
+      font-size: rem-calc(24);
       display: block;
       width: 24px;
       height: 24px;
@@ -230,6 +244,18 @@ body {
 
   .tl-picture {
     background: $primary-color;
+  }
+
+  .icon-book:before {
+    content: '\e91f';
+  }
+
+  .icon-mobile:before {
+    content: '\e958';
+  }
+
+  .icon-database:before {
+    content: '\e964';
   }
 
   .timeline-content {
@@ -328,6 +354,8 @@ body {
       -webkit-transform: translateZ(0);
       -webkit-backface-visibility: hidden;
     }
+
+
 
     .timeline-content {
       margin-left: 0;
