@@ -412,4 +412,8 @@ body {
   background-color: $oil;
   color: $white;
   padding: rem-calc(55) 0;
+
+  .social {
+    list-style-type: none;  
+  }
 }

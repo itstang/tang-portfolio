@@ -8520,5 +8520,8 @@ body {
   color: #FFFFFF;
   padding: 3.4375rem 0;
 }
+#contact .social {
+  list-style-type: none;
+}
 
 /*# sourceMappingURL=app.css.map */
