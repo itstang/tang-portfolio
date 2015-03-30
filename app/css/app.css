@@ -8296,14 +8296,32 @@ body {
 #portfolio .items {
   margin-top: 1.5625rem;
 }
-#portfolio .items article p {
+#portfolio .items .project p {
   margin: 0;
 }
-#portfolio .items article p:nth-child(2) {
+#portfolio .items .project p:nth-child(2) {
   margin-top: 0.5rem;
 }
-#portfolio .items article h3 {
+#portfolio .items .project h3 {
   font-size: 1.4375rem;
+}
+#portfolio .items .project .project-pic {
+  background-color: #978654;
+  border: 1px solid #ebebeb;
+  overflow: hidden;
+  position: relative;
+}
+#portfolio .items .project .project-pic img {
+  opacity: 1;
+  -webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
+  transition: opacity 0.45s, transform 0.45s;
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
+#portfolio .items .project .project-pic:hover img {
+  opacity: 0.5;
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 
 #timeline {
@@ -8520,8 +8538,21 @@ body {
   color: #FFFFFF;
   padding: 3.4375rem 0;
 }
-#contact .social {
+#contact .social li {
+  display: inline-block;
   list-style-type: none;
+}
+#contact .social li .icon-facebook:before {
+  content: '\e603';
+}
+#contact .social li .icon-twitter:before {
+  content: '\e602';
+}
+#contact .social li .icon-linkedin:before {
+  content: '\e601';
+}
+#contact .social li .icon-github:before {
+  content: '\e600';
 }
 
 /*# sourceMappingURL=app.css.map */
