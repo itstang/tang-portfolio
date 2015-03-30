@@ -8149,7 +8149,6 @@ th.hide-for-touch {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
-  font-size: 6.25rem;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
@@ -8282,12 +8281,15 @@ body {
 }
 #skills .icon-embed2:before {
   content: "\ea80";
+  font-size: 6.25rem;
 }
 #skills .icon-tablet:before {
   content: "\e95a";
+  font-size: 6.25rem;
 }
 #skills .icon-pencil:before {
   content: "\e905";
+  font-size: 6.25rem;
 }
 
 #portfolio {
@@ -8538,13 +8540,14 @@ body {
   }
 }
 #contact {
-  background-color: #333333;
-  color: #FFFFFF;
+  background-color: #222222;
+  color: #999999;
   padding: 3.4375rem 0;
 }
 #contact .social li {
   display: inline-block;
   list-style-type: none;
+  font-size: 3.4375rem;
 }
 #contact .social li .icon-facebook:before {
   content: '\e603';

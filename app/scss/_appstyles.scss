@@ -22,7 +22,6 @@
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
-  font-size: rem-calc(100);
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
@@ -134,14 +133,17 @@ body {
 
   .icon-embed2:before {
   	content: "\ea80";
+    font-size: rem-calc(100);
   }
 
   .icon-tablet:before {
     content: "\e95a";
+    font-size: rem-calc(100);
   }
 
   .icon-pencil:before {
   	content: "\e905";
+    font-size: rem-calc(100);
   }
 }
 
@@ -425,13 +427,14 @@ body {
 }
 
 #contact {
-  background-color: $oil;
-  color: $white;
+  background-color: $jet;
+  color: $aluminum;
   padding: rem-calc(55) 0;
 
   .social li {
     display: inline-block;
     list-style-type: none;
+    font-size: rem-calc(55);
 
     .icon-facebook:before { content: '\e603'; }
     .icon-twitter:before { content: '\e602'; }
