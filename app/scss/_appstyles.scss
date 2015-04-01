@@ -88,7 +88,7 @@ body {
 }
 
 #about {
-  margin-top: rem-calc(55);
+  padding: rem-calc(55) 0;
 
   article.interest {
     h3 { margin-top:rem-calc(55); }
@@ -148,7 +148,7 @@ body {
 }
 
 #portfolio {
-  padding: rem-calc(55) 0 0;
+  padding: rem-calc(55) 0;
 
   .items {
     margin-top: rem-calc(25);
@@ -192,8 +192,7 @@ body {
 
 #timeline {
   background-color: #ebebeb;
-  padding: 2em 0 4em;
-  margin: 2em 0 0;
+  padding: rem-calc(55) 0;
 
   .tl-container {
     width: 90%;

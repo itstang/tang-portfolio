@@ -8235,7 +8235,7 @@ body {
 }
 
 #about {
-  margin-top: 3.4375rem;
+  padding: 3.4375rem 0;
 }
 #about article.interest h3 {
   margin-top: 3.4375rem;
@@ -8293,7 +8293,7 @@ body {
 }
 
 #portfolio {
-  padding: 3.4375rem 0 0;
+  padding: 3.4375rem 0;
 }
 #portfolio .items {
   margin-top: 1.5625rem;
@@ -8328,8 +8328,7 @@ body {
 
 #timeline {
   background-color: #ebebeb;
-  padding: 2em 0 4em;
-  margin: 2em 0 0;
+  padding: 3.4375rem 0;
 }
 #timeline .tl-container {
   width: 90%;
